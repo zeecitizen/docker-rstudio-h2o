@@ -23,8 +23,10 @@ Login to RStudio using username: guest and password: guest
 
 Now inside the browser GUI of RStudio write these commands:
 
-install.packages("h2o", repos=(c("http://s3.amazonaws.com/h2o-release/h2o/master/1497/R", getOption("repos"))))
+install.packages("h2o", repos=(c("http://s3.amazonaws.com/h2o-release/h2o/master/1497/R", getOption("repos")))) 
+
 library(h2o)
+
 localH2O = h2o.init(nthreads = -1)
 
 The init command runs in such a way to utilize all cores of CPU for H2O. 
