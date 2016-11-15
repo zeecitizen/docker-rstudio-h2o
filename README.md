@@ -2,7 +2,7 @@
 Run H2O in RStudio using this docker image
 
 
-Place docker file to a folder such as at /home/linux_user/mydockerbuild
+Download and place Dockerfile and supervisord.conf to a folder such as at /home/linux_user/mydockerbuild
 
 cd into this folder mydockerbuild
 
